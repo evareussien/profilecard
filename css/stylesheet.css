@@ -1,0 +1,97 @@
+
+body {
+  background-color: #00B6C7;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bgimages {
+  position: absolute;
+  width: 100%;
+}
+
+.bg-top {
+  position: absolute;
+  left: -300px;
+  top: -300px;
+  width: 65%;
+}
+
+.bg-bottom {
+  position: absolute;
+  top: 365px;
+  left: 740px;
+  width: 65%;
+}
+
+.card-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px 8px rgba(0,0,0,0.24);
+}
+
+.profilepicture {
+  border-radius: 100px;
+  border: solid 5px white;
+}
+
+.middle-card {
+  margin-top: -50px;
+  padding-bottom: 10px;
+}
+
+.bottom-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+hr {
+  margin: 0;
+  opacity: 0.3;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+span {
+  font-weight: 400;
+}
+
+.card-data {
+  text-align: center;
+}
+
+.profile-text {
+  font-size: 14px;
+  color: gray;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.item-text {
+  font-size: 10px;
+  color: gray;
+  letter-spacing: 1px;
+  margin: 0;
+}
